@@ -30,7 +30,7 @@ while True:
     if another == "n":
         break
     print(f"\nWelcome {name}. Which fruit would you like to buy?")
-    for i, (fruit,price) in enumerate(fruit_prices.items(),1):
+    for i, (fruit, price) in enumerate(fruit_prices.items(), 1):
         print(f"{i}. {fruit} ${price}")
 print(f"\nOrder for {name}")
 for fruit, count in fruit_count.items():
